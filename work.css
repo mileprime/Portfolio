@@ -16,7 +16,7 @@ header {
   font-family: Poppins;
   padding: 32px 142px;
   gap: 64px;
-  padding-bottom: 64px;
+  padding-bottom: 1px;
 }
 .header-title {
   color: var(--text-color);  
@@ -34,7 +34,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--padding-padding-64px, 64px);
+  /* gap: var(--padding-padding-64px, 64px); */
   align-self: stretch;
 }
 .content-title {
