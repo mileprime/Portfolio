@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body {
     background-color: #071e2e;
   }
@@ -33,17 +40,20 @@ body {
 
 .content {
         display: flex;
-        width: 1157px;
+        width: 100%;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         gap: 64px;  
-        padding: 32px 142px;          
+        padding: 32px 142px;  
+        padding-bottom: 121px;        
 }
 
 .content-about-me {
     align-self: stretch;
     color: var(--text-color);
     text-align: center;
+    padding-bottom: 32px;
 
 /* Heading/H1/Semi-Bold/Normal */
     font-family: var(--typography-typeface-change-font-here-heading, Poppins);
@@ -70,11 +80,19 @@ body {
     width: 217px;
     height: 198px;
     padding-top: 19px;
-    justify-content: center;
+
+    /* justify-content: center; */
     align-items: center;
+    /* background-size: center; */
     border-radius: var(--radius-radius-infinity, 9999px);
-    background: var(--secondary-color);
+    background-color: var(--secondary-color);
+    background-image: url("./file3.png");
+    ;background-position: center;
+    background-size: contain;
+    /* background-color: #1b85d1; */
+    background-repeat: no-repeat;
   }
+ 
 
   .btn {
     display: flex;
@@ -114,12 +132,45 @@ body {
     line-height: var(--Typography-Height-SM, 28px); /* 155.556% */
   }
  
-.experience {
+
+.exp-layout {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+  
+}
+.exp-title {
+    
+    font-size: 34px;
+    font-weight: 600; 
+    margin: 0 !important;
+    font-family: "poppins";
+    color: var(--text-color);
+}
+.experience-item{
+   
     display: flex;
     /* flex-direction: column; */
-    align-items: flex-start;
-    gap: 96px;
-    align-self: stretch;
+   
+}
+.circle {
+    width: 27px;
+    height: 27px;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+}
+.border {
+    width: 3px;
+    height: 100%;
+    background-color: var(--secondary-color);
+    
+}
+.experience-item-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
 }
 .about-item {
     width: 315px;
@@ -134,7 +185,7 @@ body {
 
 }
 .experience-title {
-    color: #FFF;
+    color: var(--text-color);
 
     /* Heading/H3/Semi-Bold/Normal */
     font-family: var(--typography-typeface-change-font-here-heading, Poppins);
@@ -144,7 +195,7 @@ body {
     line-height: var(--Typography-Height-LG, 52px); /* 216.667% */
 }
 .experience-job {
-    color: #FFF;
+    color: var(--text-color);
 
 /* Body/MD/Regular/Normal */
 font-family: var(--typography-typeface-change-font-here-body, Poppins);
@@ -152,17 +203,9 @@ font-size: var(--Typography-Size-MD, 18px);
 font-style: normal;
 font-weight: var(--Typography-Weight-Regular, 400);
 line-height: var(--Typography-Height-SM, 28px); /* 155.556% */
+margin-bottom: 24px;
 }
-.experience-desc {
-    color: #FFF;
 
-/* Body/MD/Regular/Normal */
-font-family: var(--typography-typeface-change-font-here-body, Poppins);
-font-size: var(--Typography-Size-MD, 18px);
-font-style: normal;
-font-weight: var(--Typography-Weight-Regular, 400);
-line-height: var(--Typography-Height-SM, 28px); /* 155.556% */
-}
 
 .footer-title {
     color: var(--secondary-color);

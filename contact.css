@@ -90,7 +90,7 @@ line-height: var(--Typography-Height-LG-4x, 84px); /* 131.25% */
 .content-form input {
     background-color: var(--background-color); 
     border: 1px solid #1E303C; 
-    
+    color: var(--text-color);
     display: flex;
     padding: var(--Spacing-spacing-sm-3x, 12px) var(--Spacing-spacing-sm-4x, 16px);  
     gap: var(--Spacing-spacing-sm-3x, 12px);
