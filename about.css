@@ -6,14 +6,14 @@
 
 
 body {
-    background-color: #071e2e;
+    background-color: var(--background-color);
   }
   
   :root {
     --main-color: #1b85d1;
     --secondary-color: #eac403;
     --text-color: #fff;
-    --background-color: #071e2e;
+    --background-color: #1a1a40;
   }
   
   header {
@@ -230,3 +230,129 @@ margin-bottom: 24px;
     align-self: stretch;
     padding: 96px;
   }
+
+
+
+/* --- Start of Responsive Media Query --- */
+@media only screen and (max-width: 1200px) {
+  header {
+    padding: 16px;
+  }
+  .content-about-me {
+    font-size: 48px;
+    line-height: 64px;
+  }
+  .content-about-desc {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .experience-title {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .experience-job {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .btn {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .main-btn, .second-btn {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  header {
+    flex-direction: column;
+    padding: 16px;
+  }
+  .nav-link {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .content {
+    padding: 16px;
+  }
+  .content-about-me {
+    font-size: 40px;
+    line-height: 56px;
+  }
+  .content-about-desc {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .experience-title {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .experience-job {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .content-about-me {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .content-about-desc {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .experience-title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .experience-job {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .content-about-me {
+    font-size: 32px;
+    line-height: 44px;
+  }
+  .content-about-desc {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .experience-title {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .experience-job {
+    font-size: 10px;
+    line-height: 14px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .content {
+    padding: 8px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content-about-me {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .content-about-desc {
+    font-size: 8px;
+    line-height: 12px;
+  }
+  .experience-title {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .experience-job {
+    font-size: 8px;
+    line-height: 12px;
+  }
+}
+/* --- End of Responsive Media Query --- */
+

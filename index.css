@@ -6,6 +6,7 @@ body {
   --main-color: #1b85d1;
   --secondary-color: #eac403;
   --background-color: #071e2e;
+  
 }
 
 header {
@@ -47,7 +48,7 @@ header {
   color: #fff;
 
   /* Heading/H1/Semi-Bold/Normal */
-  font-family: var(--typography-typeface-change-font-here-heading, Poppins);
+  font-family: "Poppins";
   font-size: var(--Typography-Size-LG-4x, 64px);
   font-style: normal;
   font-weight: var(--Typography-Weight-Semi-Bold, 600);
@@ -146,7 +147,7 @@ footer {
 }
 /* style the mode checkbox*/
 label {
-  width: 70px !important;
+  width: 67px !important;
   height: 20px;
   padding: 5px;
   box-shadow: inset 0px 5px 10px rgb(61, 61, 61);
@@ -186,9 +187,36 @@ label img {
   background-color: rgb(135, 131, 131);
 }
 
+
+/* --- Start of Responsive Media Query --- */
 @media only screen and (max-width: 600px) {
-  .content {
-    display: flex;
+  header {
+    padding: 16px;
     flex-direction: column;
+  }
+
+  .nav-link {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .content {
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-text {
+    width: 100%;
+  }
+
+  .img-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .btn {
+    flex-direction: column;
+    gap: 16px;
   }
 }
