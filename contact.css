@@ -137,8 +137,14 @@ header {
 }
 
 .content-find-me {
-  margin-left: 200px;
+  display: grid;
+  /* margin-left: 200px; */
+  justify-content: center;
+  align-items: center;
 }
+/* .content-find-me-social {
+  justify-content: center;
+} */
 
 .footer-title {
   color: var(--secondary-color);
@@ -184,6 +190,10 @@ footer {
     font-size: 16px;
     padding: 12px 16px;
   }
+  /* .content-find-me-social {
+    display: grid;
+    justify-content: center;
+  } */
   .btn {
     font-size: 16px;
     padding: 12px 16px;
@@ -269,6 +279,9 @@ footer {
   .content-find-me {
     margin-left: 0;
     text-align: center;
+  }
+  .social-icons {
+    justify-content: center;
   }
 }
 
