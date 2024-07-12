@@ -6,7 +6,6 @@ body {
   --main-color: #1b85d1;
   --secondary-color: #eac403;
   --background-color: #071e2e;
-  
 }
 
 header {
@@ -49,21 +48,21 @@ header {
 
   /* Heading/H1/Semi-Bold/Normal */
   font-family: "Poppins";
-  font-size: var(--Typography-Size-LG-4x, 64px);
+  font-size: 64px;
   font-style: normal;
-  font-weight: var(--Typography-Weight-Semi-Bold, 600);
-  line-height: var(--Typography-Height-LG-4x, 84px); /* 131.25% */
+  font-weight: 600;
+  line-height: 84px; /* 131.25% */
 }
 .content-desc {
   align-self: stretch;
   color: var(--secondary-color);
 
   /* Heading/H3/Semi-Bold/Normal */
-  font-family: var(--typography-typeface-change-font-here-heading, Poppins);
-  font-size: var(--Typography-Size-LG-2X, 24px);
+  font-family: "Poppins";
+  font-size: 24px;
   font-style: normal;
-  font-weight: var(--Typography-Weight-Semi-Bold, 600);
-  line-height: var(--Typography-Height-LG, 52px); /* 216.667% */
+  font-weight: 600;
+  line-height: 52px; /* 216.667% */
 }
 .content-main {
   align-self: stretch;
@@ -71,10 +70,10 @@ header {
 
   /* Body/MD/Regular/Normal */
   font-family: "Poppins";
-  font-size: var(--Typography-Size-MD, 18px);
+  font-size: 18px;
   font-style: normal;
-  font-weight: var(--Typography-Weight-Regular, 400);
-  line-height: var(--Typography-Height-SM, 28px); /* 155.556% */
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
 }
 
 .btn {
@@ -88,15 +87,15 @@ header {
   border-radius: 8px;
   background: var(--secondary-color);
   height: 40px;
-  color: var(--Component-Text-component-text-light-fixed, #fff);
+  color: #fff;
   text-align: center;
 
   /* Body/MD/Regular/Normal */
-  font-family: var(--typography-typeface-change-font-here-body, Poppins);
-  font-size: var(--Typography-Size-MD, 18px);
+  font-family: "Poppins";
+  font-size: 18px;
   font-style: normal;
-  font-weight: var(--Typography-Weight-Regular, 400);
-  line-height: var(--Typography-Height-SM, 28px); /* 155.556% */
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
 }
 .second-btn {
   width: 151px;
@@ -108,11 +107,11 @@ header {
   text-align: center;
 
   /* Body/MD/Regular/Normal */
-  font-family: var(--typography-typeface-change-font-here-body, Poppins);
-  font-size: var(--Typography-Size-MD, 18px);
+  font-family: "Poppins";
+  font-size: 18px;
   font-style: normal;
-  font-weight: var(--Typography-Weight-Regular, 400);
-  line-height: var(--Typography-Height-SM, 28px); /* 155.556% */
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
 }
 
 footer {
@@ -125,11 +124,11 @@ footer {
   color: var(--secondary-color);
 
   /* Body/MD/Regular/Normal */
-  font-family: var(--typography-typeface-change-font-here-body, Poppins);
-  font-size: var(--Typography-Size-MD, 18px);
+  font-family: "Poppins";
+  font-size: 18px;
   font-style: normal;
-  font-weight: var(--Typography-Weight-Regular, 400);
-  line-height: var(--Typography-Height-SM, 28px); /* 155.556% */
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
 }
 .social-icons {
   display: flex;
@@ -186,7 +185,6 @@ label img {
   left: 49px;
   background-color: rgb(135, 131, 131);
 }
-
 
 /* --- Start of Responsive Media Query --- */
 @media only screen and (max-width: 600px) {
