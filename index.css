@@ -187,6 +187,19 @@ label img {
 }
 
 /* --- Start of Responsive Media Query --- */
+
+@media only screen and (max-width: 1200px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media only screen and (max-width: 600px) {
   header {
     padding: 16px;
