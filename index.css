@@ -57,10 +57,14 @@ header {
   }
 }
 .activer {
-  color: var(--secondary-color);
-  
+  color: var(--secondary-color); 
 }
-
+.activer:hover {
+  border: solid var(--secondary-color) 2px;
+  padding: 5px;
+  border-radius: 10px;
+  text-shadow: 0 0 5px var(--secondary-color);
+}
 .active {
   color: var(--secondary-color);
   border: var(--secondary-color) solid 2px;

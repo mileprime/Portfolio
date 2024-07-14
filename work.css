@@ -30,7 +30,12 @@ header {
 }
 .activer {
   color: var(--secondary-color);
-  
+}
+.activer:hover {
+  border: solid var(--secondary-color) 2px;
+  padding: 5px;
+  border-radius: 10px;
+  text-shadow: 0 0 5px var(--secondary-color);
 }
 .active {
   color: var(--secondary-color);
@@ -74,7 +79,7 @@ header {
 }
 .content-title {
   align-self: stretch;
-  color: var(--secondary-color);
+  color: var(--text-color);
   text-align: center;
 
   /* Heading/H1/Semi-Bold/Normal */
