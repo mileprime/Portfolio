@@ -39,7 +39,7 @@ header {
   color: var(--secondary-color); 
 }
 .activer:hover {
-  border: solid var(--secondary-color) 2px;
+  /* border: solid var(--secondary-color) 2px; */
   padding: 5px;
   border-radius: 10px;
   text-shadow: 0 0 5px var(--secondary-color);
