@@ -56,6 +56,10 @@ header {
     color: var(--secondary-color);
   }
 }
+.activer {
+  color: var(--secondary-color);
+  
+}
 
 .active {
   color: var(--secondary-color);
