@@ -149,6 +149,7 @@ header {
   align-self: stretch;
   font-family: "Poppins";
   color: var(--text-color);
+  
 }
 
 .content-form input[type="text"]::placeholder,
@@ -158,6 +159,7 @@ header {
 }
 
 .btn {
+  margin-top: 24px;
   display: flex;
   padding: 16px 24px;
   justify-content: center;
