@@ -18,6 +18,7 @@ header {
   gap: 64px;
   padding-bottom: 1px;
 }
+
 .header-title {
   color: var(--text-color);
   font-size: 30px;
@@ -29,6 +30,36 @@ header {
 }
 .active {
   color: var(--secondary-color);
+  border: var(--secondary-color) solid 2px;
+  padding: 5px;
+  border-radius: 10px;
+  animation: border-glow 1.5s infinite alternate, text-glow 1.5s infinite alternate;
+}
+@keyframes border-glow {
+  0% {
+    box-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color), 0 0 15px var(--secondary-color), 0 0 20px var(--secondary-color);
+  }
+  50% {
+    box-shadow: 0 0 10px var(--secondary-color), 0 0 20px var(--secondary-color), 0 0 30px var(--secondary-color), 0 0 40px var(--secondary-color);
+  }
+  100% {
+    box-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color), 0 0 15px var(--secondary-color), 0 0 20px var(--secondary-color);
+  }
+}
+@keyframes text-glow {
+  0% {
+    color: var(--secondary-color);
+  }
+  50% {
+    color: var(--text-color);
+  }
+  100% {
+    color: var(--secondary-color);
+  }
+}
+.line {
+  text-decoration: none;
+  color: var(--text-color);
 }
 .content-work {
   display: flex;
