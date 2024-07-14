@@ -130,6 +130,7 @@ header {
   display: flex;
   align-items: flex-start;
   gap: 24px;
+  
 }
 footer {
   display: flex;
@@ -138,6 +139,7 @@ footer {
   gap: 12px;
   align-self: stretch;
   padding: 96px;
+  
 }
 
 /* --- Start of Responsive Media Query --- */
