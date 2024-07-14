@@ -5,9 +5,11 @@ document.addEventListener("DOMContentLoaded", () => {  // Ensure the script runs
     if (mode.checked) {
       document.documentElement.style.setProperty("--background-color", "");  // Set to dark mode
       document.documentElement.style.setProperty("--secondary-color", "#eac403");
+      document.documentElement.style.setProperty("--main-text-color", "#FFF");
     } else {
-      document.documentElement.style.setProperty("--background-color", "#1a1a40");  // Set to light mode
-      document.documentElement.style.setProperty("--secondary-color", "#eac403");
+      document.documentElement.style.setProperty("--background-color", "#FFF");  // Set to light mode
+      document.documentElement.style.setProperty("--secondary-color", "#1859F1");
+      document.documentElement.style.setProperty("--main-text-color", "#252424");
     }
   }
 

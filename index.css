@@ -6,6 +6,7 @@ body {
   --main-color: #1b85d1;
   --secondary-color: #eac403;
   --background-color: #071e2e;
+  --main-text-color: #FFF;
 }
 
 header {
@@ -21,7 +22,7 @@ header {
   
 
 .header-title {
-  color: #fff;
+  color: var(--main-text-color);
   font-size: 30px;
   
 }
@@ -49,7 +50,7 @@ header {
     color: var(--secondary-color);
   }
   50% {
-    color: #FFF;
+    color: var(--main-text-color);
   }
   100% {
     color: var(--secondary-color);
@@ -66,7 +67,7 @@ header {
 }
 .line {
   text-decoration: none;
-  color: #FFF;
+  color: var(--main-text-color);
 }
 .content {
   padding: 32px 142px;
@@ -83,7 +84,7 @@ header {
 
 .content-title {
   align-self: stretch;
-  color: #fff;
+  color: var(--main-text-color);
 
   /* Heading/H1/Semi-Bold/Normal */
   font-family: "Poppins";
@@ -105,7 +106,7 @@ header {
 }
 .content-main {
   align-self: stretch;
-  color: #fff;
+  color: var(--main-text-color);
 
   /* Body/MD/Regular/Normal */
   font-family: "Poppins";
@@ -126,7 +127,7 @@ header {
   border-radius: 8px;
   background: var(--secondary-color);
   height: 40px;
-  color: #fff;
+  color: var(--main-text-color);
   text-align: center;
 
   /* Body/MD/Regular/Normal */
