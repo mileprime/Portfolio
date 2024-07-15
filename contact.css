@@ -4,9 +4,9 @@ body {
 
 :root {
   --main-color: #1b85d1;
-  --secondary-color: #1859F1;
+  --secondary-color: #1859f1;
   --text-color: #252424;
-  --background-color: #FFF;
+  --background-color: #fff;
 }
 
 header {
@@ -19,7 +19,6 @@ header {
   padding-bottom: 1px;
 }
 
-
 .header-title {
   color: var(--text-color);
   font-size: 30px;
@@ -31,7 +30,7 @@ header {
   gap: 10px;
 }
 .activer {
-  color: var(--secondary-color); 
+  color: var(--secondary-color);
 }
 .activer:hover {
   /* border: solid var(--secondary-color) 2px; */
@@ -44,17 +43,21 @@ header {
   border: var(--secondary-color) solid 2px;
   padding: 5px;
   border-radius: 10px;
-  animation: border-glow 1.5s infinite alternate, text-glow 1.5s infinite alternate;
+  animation: border-glow 1.5s infinite alternate,
+    text-glow 1.5s infinite alternate;
 }
 @keyframes border-glow {
   0% {
-    box-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color), 0 0 15px var(--secondary-color), 0 0 20px var(--secondary-color);
+    box-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color),
+      0 0 15px var(--secondary-color), 0 0 20px var(--secondary-color);
   }
   50% {
-    box-shadow: 0 0 10px var(--secondary-color), 0 0 20px var(--secondary-color), 0 0 30px var(--secondary-color), 0 0 40px var(--secondary-color);
+    box-shadow: 0 0 10px var(--secondary-color), 0 0 20px var(--secondary-color),
+      0 0 30px var(--secondary-color), 0 0 40px var(--secondary-color);
   }
   100% {
-    box-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color), 0 0 15px var(--secondary-color), 0 0 20px var(--secondary-color);
+    box-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color),
+      0 0 15px var(--secondary-color), 0 0 20px var(--secondary-color);
   }
 }
 @keyframes text-glow {
@@ -83,7 +86,7 @@ header {
   align-self: stretch;
   text-align: center;
   padding: 32px;
-
+  color: #1859f1;
   /* Heading/H1/Semi-Bold/Normal */
   font-family: "Poppins";
   font-size: 64px;
@@ -95,7 +98,7 @@ header {
 .content-email {
   align-self: stretch;
   text-align: center;
-
+  color: #f8380f;
   /* Body/MD/Regular/Normal */
   font-family: Poppins;
   font-size: 18px;
@@ -114,8 +117,9 @@ header {
 .content-form {
   display: flex;
   flex-direction: column;
-  border: 1px solid #1e303c;
-  background: #10212d;
+  border: 2px solid #1859f1;
+  border-radius: 10px;
+  background: #f8380f;
   padding: 35px 24px;
   justify-content: center;
 }
@@ -125,12 +129,14 @@ header {
   font-style: normal;
   font-weight: 300;
   line-height: 28px;
+  color: #fff;
 }
 
 .content-form input {
   background-color: var(--background-color);
-  border: 1px solid #1e303c;
+  border: 1px solid #1859f1;
   color: var(--text-color);
+  border-radius: 8px;
   display: flex;
   padding: 12px 16px;
   gap: 12px;
@@ -141,7 +147,8 @@ header {
 
 .content-form textarea {
   background-color: var(--background-color);
-  border: 1px solid #1e303c;
+  border: 2px solid #1859f1;
+  border-radius: 8px;
   height: 231px;
   display: flex;
   padding: 12px 16px;
@@ -149,13 +156,13 @@ header {
   align-self: stretch;
   font-family: "Poppins";
   color: var(--text-color);
-  
 }
 
 .content-form input[type="text"]::placeholder,
 .content-form input[type="email"]::placeholder,
 .content-form textarea::placeholder {
   color: var(--text-color);
+  color: #1859f1;
 }
 
 .btn {
@@ -168,7 +175,8 @@ header {
   align-self: stretch;
   background: var(--secondary-color);
   color: #fff;
-
+  border: 2px solid #fff;
+  border-radius: 8px;
   font-family: Poppins;
   font-size: 18px;
   font-style: normal;

@@ -6,7 +6,7 @@ body {
   --main-color: #1b85d1;
   --secondary-color: #eac403;
   --background-color: #071e2e;
-  --main-text-color: #FFF;
+  --main-text-color: #fff;
 }
 
 header {
@@ -19,30 +19,28 @@ header {
   padding-bottom: 1px;
 }
 
-  
-
 .header-title {
   color: var(--main-text-color);
   font-size: 30px;
-  
 }
-
 
 .nav-link {
   list-style: none;
   display: flex;
   gap: 10px;
- 
 }
 @keyframes border-glow {
   0% {
-    box-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color), 0 0 15px var(--secondary-color), 0 0 20px var(--secondary-color);
+    box-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color),
+      0 0 15px var(--secondary-color), 0 0 20px var(--secondary-color);
   }
   50% {
-    box-shadow: 0 0 10px var(--secondary-color), 0 0 20px var(--secondary-color), 0 0 30px var(--secondary-color), 0 0 40px var(--secondary-color);
+    box-shadow: 0 0 10px var(--secondary-color), 0 0 20px var(--secondary-color),
+      0 0 30px var(--secondary-color), 0 0 40px var(--secondary-color);
   }
   100% {
-    box-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color), 0 0 15px var(--secondary-color), 0 0 20px var(--secondary-color);
+    box-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color),
+      0 0 15px var(--secondary-color), 0 0 20px var(--secondary-color);
   }
 }
 @keyframes text-glow {
@@ -57,7 +55,7 @@ header {
   }
 }
 .activer {
-  color: var(--secondary-color); 
+  color: var(--secondary-color);
 }
 .activer:hover {
   /* border: solid var(--secondary-color) 2px; */
@@ -70,8 +68,8 @@ header {
   border: var(--secondary-color) solid 2px;
   padding: 5px;
   border-radius: 10px;
-  animation: border-glow 1.5s infinite alternate, text-glow 1.5s infinite alternate;
-
+  animation: border-glow 1.5s infinite alternate,
+    text-glow 1.5s infinite alternate;
 }
 .line {
   text-decoration: none;
@@ -231,7 +229,7 @@ label img {
 }
 #mode:checked + label::after {
   left: 49px;
-  background-color: rgb(135, 131, 131);
+  background-color: #f8380f;
 }
 
 /* --- Start of Responsive Media Query --- */

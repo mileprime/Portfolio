@@ -4,9 +4,9 @@ body {
 
 :root {
   --main-color: #1b85d1;
-  --secondary-color: #1859F1;
+  --secondary-color: #1859f1;
   --text-color: #252424;
-  --background-color: #FFF;
+  --background-color: #fff;
 }
 
 header {
@@ -42,17 +42,21 @@ header {
   border: var(--secondary-color) solid 2px;
   padding: 5px;
   border-radius: 10px;
-  animation: border-glow 1.5s infinite alternate, text-glow 1.5s infinite alternate;
+  animation: border-glow 1.5s infinite alternate,
+    text-glow 1.5s infinite alternate;
 }
 @keyframes border-glow {
   0% {
-    box-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color), 0 0 15px var(--secondary-color), 0 0 20px var(--secondary-color);
+    box-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color),
+      0 0 15px var(--secondary-color), 0 0 20px var(--secondary-color);
   }
   50% {
-    box-shadow: 0 0 10px var(--secondary-color), 0 0 20px var(--secondary-color), 0 0 30px var(--secondary-color), 0 0 40px var(--secondary-color);
+    box-shadow: 0 0 10px var(--secondary-color), 0 0 20px var(--secondary-color),
+      0 0 30px var(--secondary-color), 0 0 40px var(--secondary-color);
   }
   100% {
-    box-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color), 0 0 15px var(--secondary-color), 0 0 20px var(--secondary-color);
+    box-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color),
+      0 0 15px var(--secondary-color), 0 0 20px var(--secondary-color);
   }
 }
 @keyframes text-glow {
@@ -79,7 +83,7 @@ header {
 }
 .content-title {
   align-self: stretch;
-  color: var(--text-color);
+  color: var(--secondary-color);
   text-align: center;
 
   /* Heading/H1/Semi-Bold/Normal */
@@ -130,7 +134,6 @@ header {
   display: flex;
   align-items: flex-start;
   gap: 24px;
-  
 }
 footer {
   display: flex;
@@ -139,7 +142,6 @@ footer {
   gap: 12px;
   align-self: stretch;
   padding: 96px;
-  
 }
 
 /* --- Start of Responsive Media Query --- */
