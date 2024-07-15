@@ -98,7 +98,7 @@ header {
 .content-email {
   align-self: stretch;
   text-align: center;
-  color: #f8380f;
+  color: var(--text-color);
   /* Body/MD/Regular/Normal */
   font-family: Poppins;
   font-size: 18px;
