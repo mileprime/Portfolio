@@ -147,7 +147,7 @@ header {
 
 .content-form textarea {
   background-color: var(--background-color);
-  border: 2px solid #1859f1;
+  border: 1px solid #1859f1;
   border-radius: 8px;
   height: 231px;
   display: flex;
